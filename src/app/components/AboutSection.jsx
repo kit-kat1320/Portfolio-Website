@@ -24,7 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Web Development Bootcampt Certification</li>
+        <li>Web Development Bootcamp Certification</li>
         <li>University of Phoenix, Austin</li>
       </ul>
     ),
@@ -59,7 +59,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a full stack javascript developer with a passion for creating. I have experience
-            working with JavaScript, React, Node.js, Express, MySQL, Mongo, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I left a carreer in legal compliance, a detail-oriented and fast paced enviroment, to pursue progrmaming, which had up to that point only been a hoby. I am excited to work with other developers going forward. 
+            working with JavaScript, React, Node.js, Express, MySQL, Mongo, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I left a career in legal compliance, a detail-oriented and fast paced enviroment, to pursue programming, which had up to that point only been a hobby. I am excited to work with other developers going forward. 
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
