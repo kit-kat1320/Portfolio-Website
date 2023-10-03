@@ -8,38 +8,34 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "Portfolio created with React & Next.JS",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All","Web", "Mobile"],
+    gitUrl: "https://github.com/kit-kat1320/Portfolio-Website.git",
   },
   {
     id: 2,
     title: "Expense Tracker",
-    description: "Project 2 description",
+    description: "Includes Google Authentication",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/kit-kat1320/expenseTracker.git",
   },
   {
     id: 3,
     title: "Movie App",
-    description: "Project 3 description",
+    description: "API intigration",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/kit-kat1320/movieApp.git",
   },
   {
     id: 4,
-    title: "List Maker",
-    description: "Project 4 description",
+    title: "Candy Museum",
+    description: "Website basic build with Bootstrap",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/kit-kat1320/candyMuseum.git",
   },
   {
     id: 5,
@@ -48,7 +44,6 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
   },
   {
     id: 6,
@@ -57,7 +52,6 @@ const projectsData = [
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
   },
 ];
 
@@ -116,7 +110,6 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
             />
           </motion.li>
         ))}

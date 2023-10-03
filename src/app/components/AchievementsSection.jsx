@@ -17,7 +17,7 @@ const achievementsList = [
   },
   {
     metric: "Technologies",
-    value: "7",
+    value: "17",
   },
   {
     metric: "Years",
