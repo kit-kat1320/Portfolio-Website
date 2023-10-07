@@ -24,7 +24,7 @@ const projectsData = [
   {
     id: 3,
     title: "Movie App",
-    description: "API intigration",
+    description: "API integration",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/kit-kat1320/movieApp.git",
@@ -48,7 +48,7 @@ const projectsData = [
   {
     id: 6,
     title: "Emoji Box",
-    description: "Project 5 description",
+    description: "Fun emoji project",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
