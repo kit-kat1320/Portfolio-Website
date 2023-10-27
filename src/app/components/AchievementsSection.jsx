@@ -20,7 +20,7 @@ const achievementsList = [
     value: "17",
   },
   {
-    metric: "Years",
+    metric: "Year",
     value: "1",
   },
 ];
