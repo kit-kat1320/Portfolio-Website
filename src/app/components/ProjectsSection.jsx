@@ -43,15 +43,15 @@ const projectsData = [
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kit-kat1320/Yelp-Camp.git",
   },
   {
     id: 6,
-    title: "Emoji Box",
-    description: "Fun emoji project",
+    title: "Social Media Dashboard",
+    description: "Light/Dark Social Media Dashboard",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kit-kat1320/SocialMedia_LD.git",
   },
 ];
 
